@@ -1,0 +1,11 @@
+main {
+    display: flex;   
+}
+
+main > section {
+    
+}
+
+section > article {
+    
+}
