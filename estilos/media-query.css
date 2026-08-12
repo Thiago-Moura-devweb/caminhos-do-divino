@@ -1,11 +1,19 @@
-main {
-    display: flex;   
-}
+@charset "UTF-8";
 
-main > section {
-    
-}
+@media screen and (min-width: 768px) {
+    section.versiculos > article {
+        width: 600px;
+    }
 
-section > article {
-    
+    div#titulo > h2 {
+        margin-bottom: 20px;
+    }
+
+    nav {
+        width: 400px;
+    }
+
+    footer > a {
+        font-size: 1.1em;
+    }
 }
