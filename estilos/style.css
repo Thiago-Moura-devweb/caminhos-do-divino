@@ -20,6 +20,10 @@ header > h1 {
     padding: 8px 0px 5px 0px;
 }
 
+header > h1 > a {
+    color: rgb(223, 189, 0);
+}
+
 main {
     display: flex;  
     flex-flow: column wrap; 
@@ -29,6 +33,7 @@ main {
 main > section.versiculos {
     flex: 1 1 150px;
     align-items: center;
+    align-content: center;
     margin: auto;
 }
 
@@ -60,6 +65,7 @@ nav > p {
 }
 
 a {
+    color: blue;
     text-decoration: none;
 }
 

@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
+    main {
+        width: 100%;
+    }
+
     section.versiculos > article {
         width: 600px;
     }
@@ -15,5 +20,16 @@
 
     footer > a {
         font-size: 1.1em;
+    }
+}
+
+@media print {
+
+    header, footer {
+        display: none;
+    }
+
+    section.versiculos > article {
+        width: 700px;
     }
 }
