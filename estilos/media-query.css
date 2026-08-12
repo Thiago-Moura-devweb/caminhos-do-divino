@@ -2,6 +2,14 @@
 
 @media screen and (min-width: 768px) {
 
+    header > h1 {
+        padding: 15px 0px;
+        background-image: linear-gradient(to top , rgb(223, 189, 0), rgb(255, 255, 255));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     main {
         width: 100%;
     }
